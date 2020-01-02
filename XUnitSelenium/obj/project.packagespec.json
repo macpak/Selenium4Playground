@@ -1,0 +1,65 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "C:\\Users\\pakul\\RiderProjects\\XUnitSelenium\\XUnitSelenium\\XUnitSelenium.csproj",
+    "projectName": "XUnitSelenium",
+    "projectPath": "C:\\Users\\pakul\\RiderProjects\\XUnitSelenium\\XUnitSelenium\\XUnitSelenium.csproj",
+    "outputPath": "C:\\Users\\pakul\\RiderProjects\\XUnitSelenium\\XUnitSelenium\\obj\\",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "netcoreapp3.0"
+    ],
+    "sources": {
+      "https://api.nuget.org/v3/index.json": {}
+    },
+    "frameworks": {
+      "netcoreapp3.0": {
+        "projectReferences": {}
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp3.0": {
+      "dependencies": {
+        "Microsoft.NET.Test.Sdk": {
+          "target": "Package",
+          "version": "[16.4.0, )"
+        },
+        "Selenium.WebDriver": {
+          "target": "Package",
+          "version": "[4.0.0-alpha03, )"
+        },
+        "Selenium.WebDriver.ChromeDriver": {
+          "target": "Package",
+          "version": "[79.*, )"
+        },
+        "xunit": {
+          "target": "Package",
+          "version": "[2.4.1, )"
+        },
+        "xunit.runner.visualstudio": {
+          "target": "Package",
+          "version": "[2.4.1, )"
+        }
+      },
+      "imports": [
+        "net461",
+        "net462",
+        "net47",
+        "net471",
+        "net472",
+        "net48"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    }
+  }
+}
